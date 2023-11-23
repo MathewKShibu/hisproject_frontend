@@ -1,0 +1,62 @@
+/* .deletemaindiv {
+    position: absolute;
+    top: 40%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 250px;
+  }
+  
+  .deletemainh2 {
+    margin-left: -65px;
+    margin-bottom: 20px;
+  }
+  
+  .deletebuttonmain {
+    background-color: rgb(74, 182, 79);
+  }
+  
+  .deleteflightfieldmain {
+    width: 220px;
+  } */
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.deletemaindiv {
+  max-width: 400px;
+  width: 100%;
+  padding: 20px;
+  border: 2px solid rgb(34, 139, 24);
+  border-radius: 8px;
+}
+
+.deletemainh2 {
+  text-align: center;
+}
+
+.idtext
+{
+    margin-top: 10px;
+}
+
+.deleteflightfieldmain {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.deletebuttonmain {
+  width: 100%;
+  background-color: rgb(74, 182, 79);
+}
+
+/* Media query for responsiveness */
+@media (max-width: 600px) {
+  .deletemaindiv {
+    max-width: 100%;
+  }
+}

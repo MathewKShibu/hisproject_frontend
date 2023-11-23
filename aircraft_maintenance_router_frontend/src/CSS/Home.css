@@ -1,0 +1,16 @@
+.hometext
+{
+    color: rgb(74, 182, 79);
+    margin-left: 100px;
+    margin-top: 150px;
+    font-size: 70px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.mainimage
+{
+    width: 600px;
+    height: 300px;
+    margin-top: -150px;
+    margin-left: 200px;
+}

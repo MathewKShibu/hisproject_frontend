@@ -1,0 +1,16 @@
+.field
+{
+    width: 300px;
+}
+
+.submitbutton1
+{
+    background-color: rgb(74, 182, 79);
+    width: 90px;
+}
+.clearbutton1
+{
+    margin-left: 130px;
+    background-color: rgb(74, 182, 79);
+    width: 80px;
+}

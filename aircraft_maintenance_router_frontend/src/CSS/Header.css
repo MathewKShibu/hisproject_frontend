@@ -1,0 +1,14 @@
+.container-fluid
+{
+    background-color: rgb(74, 182, 79);
+}
+
+
+.container-fluid a:hover {
+    background-color: white;
+    color: black;
+  }
+
+ .menus{
+      margin-right: 60px;
+  }

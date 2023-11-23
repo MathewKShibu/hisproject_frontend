@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+  }
+  
+  .updatediv
+  {
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    border: 2px solid rgb(34, 139, 24);
+    border-radius: 8px;
+  }
+
+  .updateform {
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  .idfield,
+  .statusfield {
+    width: 100%;
+    margin-bottom: 15px; 
+  }
+  
+  .updatebutton {
+    width: 100%;
+    background-color: rgb(74, 182, 79);
+  }
+  
+ 
+  @media (max-width: 600px) {
+    .updateform {
+      max-width: 100%; 
+    }
+  }
+  
