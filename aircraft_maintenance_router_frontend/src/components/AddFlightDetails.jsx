@@ -40,7 +40,7 @@ const AddFlightDetails = () => {
     }
     //return errors;
     setErrors(errors);
-    return Object.keys(errors).length===0;
+    return Object.keys(errors).length===0;//return true if there is no errror 
   };
 
   const handleSubmit = async (e) => {
